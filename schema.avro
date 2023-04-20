@@ -1,0 +1,12 @@
+{
+  "connect.name": "profile_data.Value",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    }
+  ],
+  "name": "Value",
+  "namespace": "profile_data",
+  "type": "record"
+}

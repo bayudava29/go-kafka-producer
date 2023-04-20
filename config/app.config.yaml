@@ -1,0 +1,12 @@
+local:
+  env:
+    - name: KAFKA_SERVERS
+      value: "localhost:9092"
+    - name: KAFKA_SCHEMA_REGISTRY_URL
+      value: "http://localhost:8081"
+    - name: KAFKA_SASL_USERNAME
+      value: "root"
+    - name: KAFKA_SASL_PASSWORD
+      value: "root"
+    - name: KAFKA_PRODUCED_TOPIC_LOGGING
+      value: "profile_data"
